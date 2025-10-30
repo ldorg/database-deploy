@@ -94,7 +94,6 @@ jobs:
             - **Version**: ${{ inputs.artifact-id }}
             - **Environment**: ${{ inputs.environment }}
             - **Cluster**: prod-us-west-2
-            - **Deployment Time**: $(date '+%Y-%m-%d %H:%M:%S')
 
             ### Artifact Information
             - **Artifact ID**: ${{ inputs.artifact-id }}

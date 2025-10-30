@@ -61,7 +61,6 @@ jobs:
             - **Service**: user-service
             - **Cluster**: prod-us-east-1
             - **Namespace**: production
-            - **Rollback Time**: $(date '+%Y-%m-%d %H:%M:%S')
 
             ### Version Information
             - **Rolled Back From**: v2.5.0 (revision 47)
@@ -156,7 +155,6 @@ jobs:
 
             ### Rollback Details
             - **Target Database**: prod-db-01.internal:5432
-            - **Rollback Time**: $(date '+%Y-%m-%d %H:%M:%S')
             - **Backup Created**: db_backup_before_rollback_20251028.sql
 
             ### Version Information

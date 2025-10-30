@@ -107,7 +107,6 @@ jobs:
             - **Target Database**: prod-db-01.internal:5432
             - **Schema Version**: ${{ inputs.version }}
             - **Previous Version**: 2.4.1
-            - **Deployment Time**: $(date '+%Y-%m-%d %H:%M:%S')
 
             ### Migrations Applied
             1. V2.5.0__add_user_preferences_table.sql (1.2s)
